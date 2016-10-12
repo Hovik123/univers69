@@ -1,0 +1,92 @@
+
+
+<!-- HEADER -->
+<header id="nav" class="header header-1 no-transparent mobile-no-transparent">
+    <div class="header-wrapper">
+        <div class="container-m-30 clearfix">
+            <div class="logo-row">
+
+                <!-- LOGO -->
+                <div class="logo-container-2">
+                    <div class="logo-2">
+                        <a href="index.html" class="clearfix">
+                            <span style="font-size: 20px">Universe 69</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- BUTTON -->
+                <div class="menu-btn-respons-container">
+                    <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse"
+                            data-target="#main-menu .navbar-collapse">
+                        <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN MENU CONTAINER -->
+        <div class="main-menu-container">
+
+            <div class="container-m-30 clearfix">
+
+                <!-- MAIN MENU -->
+                <div id="main-menu">
+                    <div class="navbar navbar-default" role="navigation">
+
+                        <!-- MAIN MENU LIST -->
+                        <nav class="collapse collapsing navbar-collapse right-1024">
+                            <ul class="nav navbar-nav">
+                                <li class="parent megamenu">
+                                    <a href="/">
+                                        <div class="main-menu-title">HOME</div>
+                                    </a>
+                                </li>
+                                <!-- MENU ITEM -->
+                                <!-- MEGA MENU ITEM -->
+                                <li class="parent">
+                                    <a href="/#/phaseone">
+                                        <div class="main-menu-title">PHASE 1</div>
+                                    </a>
+                                    <ul class="sub">
+
+                                        <li><a ng-href="/#/workshop">Workshop</a></li>
+                                        <li ng-repeat="item in phase1"><a ng-href="/#/portfolio/{{item.url}}/1">{{item.display_name}}</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent">
+                                    <a href="/#/phasetow">
+                                        <div class="main-menu-title">PHASE 2</div>
+                                    </a>
+                                    <ul class="sub">
+                                        <li ng-repeat="item in phase2"><a ng-href="/#/portfolio/{{item.url}}/2">{{item.display_name}}</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="parent megamenu">
+                                    <a href="Catalog_Universe69.pdf" target="_blank">
+                                        <div class="main-menu-title">CATALOG</div>
+                                    </a>
+                                </li>
+                                <li class="parent megamenu">
+                                    <a href="/#/contact-us">
+                                        <div class="main-menu-title">CONTACT US</div>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </nav>
+
+                    </div>
+                </div>
+                <!-- END main-menu -->
+
+            </div>
+            <!-- END container-m-30 -->
+
+        </div>
+        <!-- END main-menu-container -->
+
+    </div>
+    <!-- END header-wrapper -->
+
+</header>

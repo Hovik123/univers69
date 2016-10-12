@@ -1,0 +1,107 @@
+<div class="background-tokio">
+    <!-- CONTAINER -->
+    <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url(images/tokio_map_header.jpg);background-position: 50% 50%;">
+    </div>
+    <div class="container p-140-cont">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="mb-50">
+                    <h2 class="section-title" style="color: #fff">TOKYO  PART<span class="bold"> OF UNIVERSE 69</span></h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-justify">
+                <p>“Panorama of the past or how to survive yesterday's tomorrow”</p>
+
+                <p>The tragic events that took place in Armenia and Japan unites them into one whole. We are talking about the earthquake, which happened in Armenia in December 7, 1988 and the events that occurred in March 11, 2011 in Japan.</p>
+                <p>By analyzing separately these situations worth mentioning that the series of powerful earthquakes and tsunami in March 2011 in Japan has caused catastrophic consequences: were killed and missing almost 30 thousand people, destroyed more than 45,000 homes, another 133,000 damaged partially, put out of action thousands units of technic.</p>
+                <p>Along with these, tragic events have produced deep dramatic changes in the spiritual life, worldview, mental state, life plans of millions of people. These events have thrown an exceptional challenge to the Japanese technology and the mentality of the nation. At the same time catastrophe has reached a global scale.</p>
+                <p>Should be stated that the psychological consequences of the Fukushima, on the scale prolonging and dramatic, surpass all any other unfavorable consequences.</p>
+
+                <br><br>
+
+                <p>過去への眺望、あるいは昨日の明日を生き抜くために</p>
+
+                <p>アルメニアと日本で起こったある悲劇的な事象によってこの二つの国が結びつけられます。つまり、1988年12月7日にアルメニアで、2011年3月11日に日本で発生した巨大な地震のことです。</p>
+                <p>2011年3月に日本で発生した巨大な地震とそれにともなう津波の発生は壊滅的な被害をもたらしました（3万人近くの死者と行方不明者、4万5千棟の家屋が全壊し、13万3千棟の家屋に被害を及ぼした）。</p>
+                <p>この悲劇的な出来事は多くの人々の精神生活、世界観、思考、人生設計を大きく変化させるものでした。それはこの日本という国家の科学力、そして精神力に大きな試練を投じたのです。同時にこのカタストロフィーは国際社会をも震撼させるものでした。フクシマに対する心理的な懸念は他のどんな不都合な事実をもしのぐものです。そしてこの国はいまだに莫大な労力と技術を投じてこの「国際文明」をなんとか保持しようとしているのです。</p>
+            </div>
+            <!-- FEATURES 2 -->
+
+        </div>
+
+    </div>
+    <div ng-repeat="data in datas track by $index" style="color: #7e8082">
+        <div class="page-section" ng-if="($index % 2) == 0">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6 wow fadeInLeft equal-height ">
+                        <div class="fes2-main-text-cont">
+                            <div class="row">
+                                <div class="title-fs-45"  ng-class="{'col-lg-6':data.user2Name}">
+                                    {{data.name}} <br>
+                                    <span class="bold">{{data.surname}}</span>
+                                    <div class="line-3-70" ng-if="data.user2Surname"></div>
+                                </div>
+
+                                <div class="title-fs-45" ng-if="data.user2Name" ng-class="{'col-lg-6':data.user2Name}">
+
+                                    {{data.user2Name}} <br>
+                                    <span class="bold">{{data.user2Surname}}</span>
+
+                                    <div class="line-3-70"></div>
+                                </div>
+                            </div>
+
+                            <div class="line-3-70" ng-if="!data.user2Surname"></div>
+                            <div class="fes2-text-cont text-justify" ng-bind-html="data.biograpy"></div>
+                            <div class="fes2-text-cont" style="font-size: 16px"><a ng-href="/#/portfolio/{{data.url}}/2">MORE...</a></div>
+                            <div class="line-3-70"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div style="background-image: url({{data.img}});height: 600px;background-size:cover;background-repeat: no-repeat"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FEATURES 3 -->
+        <div class="page-section" ng-if="($index % 2) == 1">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6 left-50 wow fadeInRight equal-height">
+                        <div class="fes2-main-text-cont">
+                            <div class="title-fs-45">
+                                {{data.name}} <br>
+                                <span class="bold">{{data.surname}}</span>
+
+                            </div>
+                            <div class="line-3-100"></div>
+                            <div class="fes2-text-cont text-justify" ng-bind-html="data.biograpy"></div>
+                            <div class="fes2-text-cont" style="font-size: 16px"><a ng-href="/#/portfolio/{{data.url}}/2">MORE...</a></div>
+                            <div class="line-3-70"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 right-50">
+                        <div class="row">
+                            <div style="background-image: url({{data.img}});height: 600px;background-size:cover;background-repeat: no-repeat"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

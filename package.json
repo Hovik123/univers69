@@ -1,0 +1,23 @@
+{
+  "name": "haswell-1.6-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hovik123/univers69.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hovik123/univers69/issues"
+  },
+  "homepage": "https://github.com/Hovik123/univers69#readme",
+  "devDependencies": {
+    "gulp-image-optimization": "^0.1.3",
+    "gulp-imagemin": "^3.0.3"
+  }
+}

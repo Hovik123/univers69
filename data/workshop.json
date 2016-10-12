@@ -1,0 +1,34 @@
+{
+  "data": {
+    "works": [
+      {
+        "img":"images/site/workshop/1.jpg"
+      },
+      {
+        "img":"images/site/workshop/2.JPG"
+      },
+      {
+        "img":"images/site/workshop/3.JPG"
+      },
+      {
+        "img":"images/site/workshop/4.JPG"
+      },
+      {
+        "img":"images/site/workshop/5.JPG"
+      },
+      {
+        "img":"images/site/workshop/6.JPG"
+      },
+      {
+        "img":"images/site/workshop/7.JPG"
+      },
+      {
+        "img":"images/site/workshop/8.JPG"
+      },
+      {
+        "img":"images/site/workshop/9.JPG"
+      }
+
+    ]
+  }
+}

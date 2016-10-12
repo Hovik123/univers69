@@ -1,0 +1,38 @@
+{
+  "data":[
+    {
+      "name":"ALEXANDRU",
+      "surname":"RARVSCHI",
+      "biograpy":"Wandering through Niko-Niko street in Tokyo, I drew parallels between the Japanese social model. I wanted to understand what kind of dreams these people have, what kind goals they had in youth and how they implemented in reality, under the influence of the Japanese ideology and most importantly what kind of future within the framework of Japanese capitalism they see for the younger generation in our days.",
+      "img":"images/site/alexandr-raevski/phase2/9.JPG"
+    },
+    {
+      "name":"ATSUKO",
+      "surname":"MOCHIDA",
+      "biograpy":"Wandering through Niko-Niko street in Tokyo, I drew parallels between the Japanese social model. I wanted to understand what kind of dreams these people have, what kind goals they had in youth and how they implemented in reality, under the influence of the Japanese ideology and most importantly what kind of future within the framework of Japanese capitalism they see for the younger generation in our days.",
+      "img":"images/site/atsuko-mochida/phase2/5.JPG"
+    },
+    {
+      "name":"IDEMI",
+      "surname":"NISHIDA",
+      "user2Name":"ALEXANDRU",
+      "user2Surname":"RARVSCHI",
+      "biograpy":"Through the project \"Sakhalin\" we have tried to identify ourselves with our grandfathers. The fact is that our grandfathers between 1941 and 1942 were on the front line separating Soviet army from the Japanese army in the Sakhalin area was in one line of the front, only on opposite sides. At one point, we even imagined that they could hypothetically watch to each other through binoculars from their trenches waiting for the command to go on the attack against his adversary.",
+      "img":"images/site/alex-hidemi/1.JPG"
+    },
+    {
+      "name":"KANA",
+      "surname":"KUROWIA",
+      "biograpy":"It has lied one the gallery floor just like flung but gently.Tatami mat with smell of new-mown Soft Rush, a couple of chair decayed on the roof through many years, broken lamp with no hope to illuminate again, a flower picked from corner of the street, a bottle of cold med.All of these are found around the gallery building." ,
+      "img":"images/site/kana-kurowia/phase2/1.JPG"
+    },
+    {
+      "name":"LIANNA",
+      "surname":"AKOBYAN",
+      "biograpy":"(two channel video documentation of the performance)The freedom is the human, even in order to be exposed, should be freedom. To sacrifice yourself, you should belong yourself. “My hands are tied”, that means that only by giving freedom to my mind, I began to feel the weight of my own bonds, which helps to find my limits. To have freedom, you must limit it.",
+      "img":"images/site/liana-akopyan/phase2/4.jpg"
+    }
+
+
+  ]
+}

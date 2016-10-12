@@ -1,0 +1,148 @@
+<!-- PAGE TITLE IMG -->
+<div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img"
+     style="background-image: url({{data.topFoto}});padding-top: 500px">
+    <div class="relative container align-left">
+        <div class="row">
+
+            <div class="col-md-8">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- COTENT CONTAINER -->
+<div class="p-40-cont">
+
+    <div class="container">
+        <div class="col-md-12 mt-30">
+            <div class="mb-50">
+                <h1 class="section-title text-uppercase" ng-if="data.projectName">{{data.projectName}}</h1>
+                <h2 class="section-title text-capitalize" style="margin-top: 30px">{{data.fullName}} {{data.fullName2?"and " +data.fullName2:""}}</h2>
+            </div>
+        </div>
+
+        <div class="page-section p-20-cont owl-white-bg  fullwidth-slider">
+
+            <div class="owl-white-bg fullwidth-slider p-20-cont">
+
+
+                <!-- Slide Item -->
+                <div class="container relative">
+                    <div class="row">
+                        <div class="col-md-7 text-justify">
+                            <p ng-bind-html="data.bio"></p>
+                            <p ng-if="data.bioArm" ng-bind-html="data.bioArm"></p>
+                            <hr class="mt-0 mb-0" ng-if="data.bioArm">
+
+                            <p ng-if="data.bioTokio" ng-bind-html="data.bioTokio"></p>
+                        </div>
+
+                        <div class="col-md-4 col-md-offset-1">
+                            <img ng-src="{{data.biofoto}}" alt="photo">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="mt-40 page-section p-20-cont owl-white-bg  fullwidth-slider" ng-if="data.bio2">
+            <div class="owl-white-bg fullwidth-slider p-20-cont">
+
+
+                <!-- Slide Item -->
+                <div class="container relative">
+                    <div class="row">
+                        <div class="col-md-7 text-justify">
+                            <p ng-if="data.bio2" ng-bind-html="data.bio2"></p>
+                            <p ng-if="data.bioArm" ng-bind-html="data.bio2Arm"></p>
+                            <hr class="mt-0 mb-0" ng-if="data.bioArm">
+
+                            <p ng-if="data.bio2" ng-if="data.bio2Tokio" ng-bind-html="data.bio2Tokio"></p>
+                        </div>
+
+                        <div class="col-md-4 col-md-offset-1">
+                            <img ng-src="{{data.biofoto2}}" alt="photo">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-30">
+            <div class="mb-50 text-justify">
+                <h2 class="section-title">IDEA OF THE PROJECT</h2>
+                <p class="pt-20" ng-bind-html="data.history"></p>
+                <p class="pt-20" ng-if="data.historyArm" ng-bind-html="data.historyArm"></p>
+                <p class="pt-20" ng-if="data.historyTokio" ng-bind-html="data.historyTokio"></p>
+            </div>
+        </div>
+        <h2 class="section-title" ng-if="data.video">VIDEO OF THE PROJECT</h2>
+        <div class="col-lg-6 col-lg-offset-3 mt-50" ng-if="data.video">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/T2eHTBg6DXA" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+    </div>
+    <div class="container">
+       <div ng-if="data.bio3">
+        <div class="col-md-12 mt-30">
+            <div class="mb-50">
+                <h1 class="section-title text-uppercase" ng-if="data.projectName2">{{data.projectName2}}</h1>
+                <h2 class="section-title text-capitalize" style="margin-top: 30px">{{data.fullName3}}</h2>
+            </div>
+        </div>
+        <div class="mt-40 page-section p-20-cont owl-white-bg  fullwidth-slider" ng-if="data.bio3">
+            <div class="owl-white-bg fullwidth-slider p-20-cont">
+
+
+                <!-- Slide Item -->
+                <div class="container relative">
+                    <div class="row">
+                        <div class="col-md-7 text-justify">
+                            <p ng-if="data.bio2" ng-bind-html="data.bio3"></p>
+                            <p ng-if="data.bioArm" ng-bind-html="data.bio3Arm"></p>
+                            <hr class="mt-0 mb-0" ng-if="data.bioArm">
+
+                            <p ng-if="data.bio2" ng-if="data.bio2Tokio" ng-bind-html="data.bio3Tokio"></p>
+                        </div>
+
+                        <div class="col-md-4 col-md-offset-1">
+                            <img ng-src="{{data.biofoto3}}" alt="photo">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-30">
+            <div class="mb-50 text-justify">
+                <h2 class="section-title">IDEA OF THE PROJECT</h2>
+                <p class="pt-20" ng-bind-html="data.history2"></p>
+                <p class="pt-20" ng-if="data.historyArm2" ng-bind-html="data.historyArm2"></p>
+                <p class="pt-20" ng-if="data.historyTokio2" ng-bind-html="data.historyTokio2"></p>
+            </div>
+        </div>
+       </div>
+        <div class="col-md-12">
+            <div class="mb-50">
+            </div>
+        </div>
+        <!-- CAROUSEL -->
+        <div class="container mb-80">
+
+
+            <div owl-carousel="data.works" owl-options="{{owlOptions}}"
+                 class="fullwidth-slider owl-carousel owl-arrows-bg owl-dark-bg owl-pag-2">
+                <div class="item m-0">
+                    <div>
+                        <img alt="about us" ng-src="{{item.img}}" class="img-responsive gallery_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

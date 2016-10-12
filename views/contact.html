@@ -1,0 +1,68 @@
+<!-- GOOGLE MAP & CONTACT FORM -->
+<div class="page-section">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="contact-form-cont">
+                    <!-- TITLE -->
+                    <div class="mb-40">
+                        <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
+                        <div class="col-md-4 col-sm-6 pull-right">
+                            <div class="cis-cont">
+                                <div class="cis-icon">
+                                    <div class="icon icon-basic-mail"></div>
+                                </div>
+                                <div class="cis-text">
+                                    <h3><span class="bold">EMAIL</span></h3>
+                                    <p><a href="mailto:iraevski22@yahoo.com">raevski22@yahoo.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CONTACT FORM -->
+                    <div class="col-lg-12">
+                        <form id="contact-form" method="POST" name="Form">
+
+                            <div class="row">
+                                <div class="col-lg-12 mb-30">
+                                    <!-- <label>Your name *</label> -->
+                                    <input type="text" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" id="name" placeholder="NAME" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 mb-30">
+                                    <!-- <label>Your email address *</label> -->
+                                    <input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" placeholder="EMAIL" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 mb-40">
+                                    <!-- <label>Message *</label> -->
+                                    <textarea maxlength="5000" data-msg-required="Please enter your message." rows="3" class="form-control" name="message" id="message" placeholder="MESSAGE" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12 ">
+                                    <input type="button" ng-disabled="Form.$invalid" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
+                                </div>
+                            </div>
+
+                        </form>
+                        <div class="alert alert-success hidden" id="contactSuccess">
+                            <strong>Success!</strong> Your message has been sent to us.
+                        </div>
+
+                        <div class="alert alert-danger hidden" id="contactError">
+                            <strong>Error!</strong> There was an error sending your message.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

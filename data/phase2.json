@@ -1,0 +1,42 @@
+{
+  "data":[
+    {
+      "name":"ATSUKO",
+      "surname":"MOCHIDA",
+      "biograpy":"<p> Wandering through Niko-Niko street in Tokyo, I drew parallels between the Japanese social model.</p> <p>I wanted to understand what kind of dreams these people have, what kind goals they had in youth and how they implemented</p><p> in reality, under the influence of the Japanese ideology and most importantly what kind of future</p> <p>within the framework of Japanese capitalism they see for the younger generation in our days.</p>",
+      "img":"images/site/atsuko-mochida/phase2/5.JPG",
+      "url":"atsuko-motchida"
+    },
+    {
+      "name":"LIANNA",
+      "surname":"AKOBYAN",
+      "biograpy":"<p>(two channel video documentation of the performance)The freedom is the human, even in order to be exposed, should be freedom.</p><p> To sacrifice yourself, you should belong yourself.</p><p> “My hands are tied”, that means that only by giving freedom to my mind, I began to feel the weight of my own bonds, which helps to find my limits.</p> <p>To have freedom, you must limit it.</p>",
+      "img":"images/site/liana-akopyan/phase2/4.jpg",
+      "url":"liana-hakobyan"
+    },
+    {
+      "name":"KANA",
+      "surname":"KUROWIA",
+      "biograpy":"<p>It has lied one the gallery floor just like flung but gently.</p><p>Tatami mat with smell of new-mown Soft Rush, a couple of chair decayed on the roof through many years, broken lamp with no hope to illuminate again,</p> a flower picked from corner of the street, a bottle of cold med.</p><p>All of these are found around the gallery building.</p>" ,
+      "img":"images/site/kana-kurowia/p2/2.JPG",
+      "url":"kana-kurowia"
+    },
+    {
+      "name":"ALEXANDRU",
+      "surname":"RAEVSCHI",
+      "biograpy":"<p>Wandering through Niko-Niko street in Tokyo, I drew parallels between the Japanese social model.</p> <p>I wanted to understand what kind of dreams</p><p> these people have, what kind goals they had in youth and how they implemented in reality, under the </p><p>influence of the Japanese ideology and most importantly what kind of future within the framework of Japanese capitalism they see for the younger generation in our days.</p>",
+      "img":"images/site/alexandr-raevski/p2/10.JPG",
+      "url":"alexandru-raevski"
+    },
+
+    {
+      "name":"HIDEMI",
+      "surname":"NISHIDA",
+      "user2Name":"ALEXANDRU",
+      "user2Surname":"RAEVSCHI",
+      "biograpy":"<p>Through the project \"Sakhalin\" we have tried to identify ourselves with our grandfathers.</p><p> The fact is that our grandfathers between 1941 and 1942 were on the front line separating Soviet army from the Japanese army </p><p>in the Sakhalin area was in one line of the front, only on opposite sides. At one point, we even imagined that they could hypothetically watch to each other through binoculars from their trenches waiting for the command to go on the attack against his adversary.</p>",
+      "img":"images/site/alex-hidemi/1.JPG",
+      "url":"alexandru-raevski-hidemi-nishida"
+    }
+  ]
+}

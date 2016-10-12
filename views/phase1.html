@@ -1,0 +1,128 @@
+<div class="background">
+    <!-- CONTAINER -->
+    <div class="page-title-cont page-title-large grey-dark-bg page-title-img  blog-single-fullwidth-img" style="background-image: url(images/imgpsh_fullsize2.jpg);background-position: 50% 64%;">
+    </div>
+    <div class="container p-140-cont">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="mb-50">
+                    <h2 class="section-title">"UNIVERSE 69" - <span class="bold">phase 1 (Gyumri, Armenia) </span></h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-justify">
+                <p>During the soviet present, each separate republic was part of a general socialist system. Inside (without taking into account the price that had to pay for it) there was a relatively prosperous vacuum in which soviet citizens lived. An ordinary individual was generally confident in the future, in available labor employment, housing and communal conditions, education, health and other basic factors of existence.</p>
+
+                <p>However, in the last stage of its development inside of the state organism began to be formed “Behavioral sink”, which started denoted the transition to a destructive and deviant behavior.</p>
+                <p>In the project “Universe 69”, we explored the causes of internal fracture of the Armenian society on the example of the inhabitants of the city of Gyumri, which was almost destroyed by a natural disaster on 7th of December in 1988.</p>
+
+                <p>Unfortunately, the city has not had time to fully recover by reason the collapse of the USSRr. Until this day, the city lies partly in ruins are keeping not lingering scars of change. the experience of gained trauma acutely bared sensitive aspects of human subjectivity, has concentrated emotional side, which was making it as a carrier an irrational principle, while not offering nor any potential scenarios for the resolving the situation.</p>
+                <br><br>
+                <p>Խորհրդային տարիների ընթացքում, յուրաքանչյուր առանձին հանրապետություն կազմում էր ընդհանուր սոցիալիստական համակարգի մասը: Այդ համակարգի ներսում գործում էր համեմատաբար բարեկեցիկ վակուում, որտեղ խորհրդային քաղաքացիներ ապրում էին: Շարքային անհատը, ընդհանուր առմամբ, վստահ էր իր ապագայի համար, մատչելի աշխատանքային զբաղվածության, բնակարանային եւ կոմունալ պայմանների, կրթության, առողջապահության եւ այլ հիմնական գործոնների գոյության շնորհիվ:</p>
+
+                <p>Սակայն, այդ պետական օրգանիզմի զարգացման վերջին փուլում սկսեց ձևավորվել “Վարվեցողության անկում”, որը բնորոշեց անցումը դեպի կործանարար եւ վայրի վարքի: “Տիեզերք 69” նախագծում մենք ուսումնասիրել հայ հասարակության ներքին կոտրվածքի պատճառները Գյումրի քաղաքի բնակիչների օրինակով. քաղաք, որը գրեթե ավերվել է 1988 թ.</p>
+
+                <p>դեկտեմբերի 7- ի բնական աղետի հետևանքով: Ցավոք սրտի, քաղաքը ժամանակ չի ունեցել լիովին վերականգնելու, որի պատճառն է հանդիսացել ԽՍՀՄ փլուզումը: Մինչև այժմ, Գյումրին մասամբ ավերակների տակ է և կրում է փոփոխությունների վերքերը: Այդ սուր վնասվածքից ձեռք բերած փորձը ընդգծում է մարդկային սուբյեկտիվություն</p>
+            </div>
+            <!-- FEATURES 2 -->
+
+        </div>
+
+    </div>
+    <div ng-repeat="data in datas track by $index" style="color: #7e8082">
+        <div class="page-section" ng-if="($index % 2) == 0">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6 wow fadeInLeft equal-height ">
+                        <div class="fes2-main-text-cont">
+                            <div class="row">
+                                <div class="title-fs-45"  ng-class="{'col-lg-6':data.user2Name}">
+                                    {{data.name}} <br>
+                                    <span class="bold">{{data.surname}}</span>
+                                    <div class="line-3-70" ng-if="data.user2Surname"></div>
+                                </div>
+
+                                <div class="title-fs-45" ng-if="data.user2Name" ng-class="{'col-lg-6 pull-right':data.user2Name}">
+
+                                    <span style="display: block;float: right;text-align: right">{{data.user2Name}} <br>
+                                    <span class="bold">{{data.user2Surname}}</span></span>
+
+                                    <div class="line-3-70" style="float:right;display: block;clear: both;"></div>
+                                </div>
+                                <div class="title-fs-45" ng-if="data.user3Name" ng-class="{'col-lg-6':data.user3Name}" style="margin-top: 20px">
+
+                                    <span style="display: block;text-align: left">{{data.user3Name}} <br>
+                                    <span class="bold">{{data.user3Surname}}</span></span>
+
+                                    <div class="line-3-70" style="display: block;clear: both;"></div>
+                                </div>
+                            </div>
+
+                            <div class="line-3-70" ng-if="!data.user2Surname"></div>
+                            <div class="fes2-text-cont text-justify" ng-bind-html="data.biograpy"></div>
+                            <div class="fes2-text-cont" style="font-size: 16px" ng-if="data.custom"><a ng-href="/#/{{data.url}}">MORE...</a></div>
+                            <div class="fes2-text-cont" style="font-size: 16px" ng-if="!data.custom"><a ng-href="/#/portfolio/{{data.url}}/1">MORE...</a></div>
+                            <div class="line-3-70"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div style="background-image: url({{data.img}});height: 600px;background-size:cover;background-repeat: no-repeat;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- FEATURES 3 -->
+        <div class="page-section" ng-if="($index % 2) == 1">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6 left-50 wow fadeInRight equal-height">
+                        <div class="fes2-main-text-cont">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="title-fs-45">
+                                        {{data.name}} <br>
+                                        <span class="bold">{{data.surname}}</span>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="title-fs-45" ng-if="data.user2Name" ng-class="{'col-lg-6 pull-right':data.user2Name}">
+
+                                    <span style="display: block;float: right;text-align: right">{{data.user2Name}} <br>
+                                    <span class="bold">{{data.user2Surname}}</span></span>
+
+                                        <div class="line-3-70" style="float:right;display: block;clear: both;"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="line-3-100 clearfix" style="clear: both"></div>
+                            <div class="fes2-text-cont text-justify clearfix" ng-bind-html="data.biograpy"></div>
+                            <div class="fes2-text-cont" style="font-size: 16px"><a ng-href="/#/portfolio/{{data.url}}/1">MORE...</a></div>
+                            <div class="line-3-70"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 right-50">
+                        <div class="row">
+                            <div style="background-image: url({{data.img}});height: 600px;background-size:cover;background-repeat: no-repeat"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

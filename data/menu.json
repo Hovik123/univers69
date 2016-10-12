@@ -1,0 +1,78 @@
+{
+  "phasa1":[
+    {
+      "url":"nina-pijoyan",
+      "display_name":"Nina Pijoyan"
+    },
+    {
+      "url":"artush-mkrtchyan",
+      "display_name":"Artush Mkrtchyan"
+    },
+    {
+      "url":"suzanna-sahakyan",
+      "display_name":"Suzanna Sahakyan"
+    },
+    {
+      "url":"alexandru-raevski-hidemi-nishida",
+      "display_name":"Alexandru Rarevski & Hidemi Nishida"
+    },
+    {
+      "url":"yumino-hagiwara",
+      "display_name":"Yumino Hagiwara"
+    },
+    {
+      "url":"liana-hakobyan",
+      "display_name":"Liana Hakobyan"
+    },
+    {
+      "url":"liana-hakobyan-performance",
+      "display_name":"Liana Hakobyan (performance)"
+    },
+    {
+      "url":"anna-kachatryan",
+      "display_name":"Anna Kachatryan"
+    },
+    {
+      "url":"alexandru-raevski-maro-sahakyan",
+      "display_name":"Alexandru Rarevski & Maro Sahakayna & Julieta Avagyan"
+    },
+    {
+      "url":"karine-kachatryan",
+      "display_name":"Karine Kachatryan"
+    },
+    {
+      "url":"zaruhi-arshakyan",
+      "display_name":"Zaruhi Arshakyan"
+    },
+    {
+      "url":"kana-kurowia",
+      "display_name":"Kana Kurowia"
+    },
+    {
+      "url":"atsuko-motchida",
+      "display_name":"Atsuko Motchida"
+    }
+  ],
+  "phasa2":[
+    {
+      "url":"atsuko-motchida",
+      "display_name":"Atsuko Motchida"
+    },
+    {
+      "url":"liana-hakobyan",
+      "display_name":"Liana Hakobyan"
+    },
+    {
+      "url":"kana-kurowia",
+      "display_name":"Kana Kurowia"
+    },
+    {
+      "url":"alexandru-raevski",
+      "display_name":"Alexandru Raevski"
+    },
+    {
+      "url":"alexandru-raevski-hidemi-nishida",
+      "display_name":"Alexandru Rarevski & Hidemi Nishida"
+    }
+  ]
+}
